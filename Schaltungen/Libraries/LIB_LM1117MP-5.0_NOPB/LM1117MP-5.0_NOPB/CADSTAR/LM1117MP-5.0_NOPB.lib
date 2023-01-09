@@ -1,0 +1,18 @@
+.LM1117MP-5.0_NOPB :1 ;LM1117MP-5.0/NOPB, Low Dropout Voltage Regulator, 1.5A, 5 V +/-1%, 4-Pin SOT-223
+SOT230P700X180-4N
+*STM IC
+*NGS
+*PLB 1="ADJ/GND" 2="OUTPUT" 3="INPUT" 4="VOUT"
+*MXP 4
+*DFN LM1117MP-5.0_NOPB
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM1117MP-5.0/NOPB)
+~!Mouser Part Number (926-LM1117MP-5.0NOPB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1117MP-50-NOPB?qs=X1J7HmVL2ZFGlzwnAaPsKg%3D%3D)
+~!Arrow Part Number (LM1117MP-5.0/NOPB)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lm1117mp-5.0nopb/texas-instruments?region=nac)
+~!Link Datasheet (http://docs-emea.rs-online.com/webdocs/0780/0900766b807800ce.pdf)
+~!Height (1.8mm)
+~!3D_Model (LM1117MP-5.0_NOPB)
+LM1117MP-5.0_NOPB
+1.1!U 2.1!U 3.1!U 4.1!U 

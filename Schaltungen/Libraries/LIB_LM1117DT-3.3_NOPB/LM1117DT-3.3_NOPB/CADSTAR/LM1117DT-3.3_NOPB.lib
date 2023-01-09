@@ -1,0 +1,18 @@
+.LM1117DT-3.3_NOPB :1 ;Space saving 800-mA low-dropout linear regulator with internal current limit
+TO228P991X238-3N
+*STM IC
+*NGS
+*PLB 1="ADJ/GND" 3="INPUT" 4="VOUT"
+*MXP 3
+*DFN LM1117DT-3.3_NOPB
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM1117DT-3.3/NOPB)
+~!Mouser Part Number (926-LM1117DT-3.3NOPB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1117DT-33-NOPB?qs=X1J7HmVL2ZHOT670myqy2w%3D%3D)
+~!Arrow Part Number (LM1117DT-3.3/NOPB)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lm1117dt-3.3nopb/texas-instruments)
+~!Link Datasheet (http://docs-emea.rs-online.com/webdocs/0780/0900766b807800cc.pdf)
+~!Height (2.38mm)
+~!3D_Model (LM1117DT-3.3_NOPB)
+LM1117DT-3.3_NOPB
+1.1!G 3.1!I 4.1!Y 

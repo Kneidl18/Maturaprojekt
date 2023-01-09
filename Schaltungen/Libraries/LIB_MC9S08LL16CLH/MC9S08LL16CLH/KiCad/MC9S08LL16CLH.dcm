@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC9S08LL16CLH
+D MCU 8-bit S08 CISC 16KB Flash 2.5V/3.3V 64-Pin LQFP Tray
+K
+F http://www.nxp.com/docs/en/data-sheet/MC9S08LL16.pdf
+$ENDCMP
+#
+#End Doc Library

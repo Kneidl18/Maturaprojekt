@@ -1,0 +1,230 @@
+*********************************************************************************************
+*********************************************************************************************
+LINKING FAILED
+The linking process failed in some stage.
+Depending on the phase the linker failed, part of the information contained in this map file may be inaccurate or wrong.
+If the linking failed before the allocation phase finished, then the addresses might be inaccurate.
+Also summary information like the code size is likely to be misleading.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
+PROGRAM "C:\Users\Andreas\OneDrive - Bildungsdirektion\Andreas\Oberschule\5. Oberschule 202122\Maturaprjoct\Code\MOD-X\ME680_LL16_C\BME680_LL16_C_V01\bin\Project.abs"
+
+*********************************************************************************************
+TARGET SECTION
+---------------------------------------------------------------------------------------------
+Processor   : Freescale HC08
+Memory Model: SMALL
+File Format : ELF (no debug info)
+Linker      : SmartLinker V-5.0.37 Build 9279, Oct  7 2009
+
+*********************************************************************************************
+FILE SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+STARTUP SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+SECTION-ALLOCATION SECTION
+Section Name                    Size  Type     From       To       Segment
+---------------------------------------------------------------------------------------------
+.abs_section_0                     1   N/I        0x0        0x0   .absSeg0
+.abs_section_1                     1   N/I        0x1        0x1   .absSeg1
+.abs_section_2                     1   N/I        0x2        0x2   .absSeg2
+.abs_section_3                     1   N/I        0x3        0x3   .absSeg3
+.abs_section_4                     1   N/I        0x4        0x4   .absSeg4
+.abs_section_5                     1   N/I        0x5        0x5   .absSeg5
+.abs_section_6                     1   N/I        0x6        0x6   .absSeg6
+.abs_section_7                     1   N/I        0x7        0x7   .absSeg7
+.abs_section_8                     1   N/I        0x8        0x8   .absSeg8
+.abs_section_9                     1   N/I        0x9        0x9   .absSeg9
+.abs_section_c                     1   N/I        0xC        0xC   .absSeg10
+.abs_section_d                     1   N/I        0xD        0xD   .absSeg11
+.abs_section_e                     1   N/I        0xE        0xE   .absSeg12
+.abs_section_f                     1   N/I        0xF        0xF   .absSeg13
+.abs_section_10                    1   N/I       0x10       0x10   .absSeg14
+.abs_section_11                    1   N/I       0x11       0x11   .absSeg15
+.abs_section_16                    1   N/I       0x16       0x16   .absSeg16
+.abs_section_17                    1   N/I       0x17       0x17   .absSeg17
+.abs_section_18                    1   N/I       0x18       0x18   .absSeg18
+.abs_section_19                    1   N/I       0x19       0x19   .absSeg19
+.abs_section_1a                    1   N/I       0x1A       0x1A   .absSeg20
+.abs_section_1b                    1   N/I       0x1B       0x1B   .absSeg21
+.abs_section_1c                    1   N/I       0x1C       0x1C   .absSeg22
+.abs_section_1d                    1   N/I       0x1D       0x1D   .absSeg23
+.abs_section_1f                    1   N/I       0x1F       0x1F   .absSeg24
+.abs_section_22                    1   N/I       0x22       0x22   .absSeg25
+.abs_section_23                    1   N/I       0x23       0x23   .absSeg26
+.abs_section_24                    1   N/I       0x24       0x24   .absSeg27
+.abs_section_25                    1   N/I       0x25       0x25   .absSeg28
+.abs_section_26                    1   N/I       0x26       0x26   .absSeg29
+.abs_section_27                    1   N/I       0x27       0x27   .absSeg30
+.abs_section_28                    1   N/I       0x28       0x28   .absSeg31
+.abs_section_29                    1   N/I       0x29       0x29   .absSeg32
+.abs_section_2a                    1   N/I       0x2A       0x2A   .absSeg33
+.abs_section_2b                    1   N/I       0x2B       0x2B   .absSeg34
+.abs_section_2d                    1   N/I       0x2D       0x2D   .absSeg35
+.abs_section_30                    1   N/I       0x30       0x30   .absSeg36
+.abs_section_31                    1   N/I       0x31       0x31   .absSeg37
+.abs_section_32                    1   N/I       0x32       0x32   .absSeg38
+.abs_section_33                    1   N/I       0x33       0x33   .absSeg39
+.abs_section_34                    1   N/I       0x34       0x34   .absSeg40
+.abs_section_35                    1   N/I       0x35       0x35   .absSeg41
+.abs_section_38                    1   N/I       0x38       0x38   .absSeg42
+.abs_section_39                    1   N/I       0x39       0x39   .absSeg43
+.abs_section_3a                    1   N/I       0x3A       0x3A   .absSeg44
+.abs_section_3b                    1   N/I       0x3B       0x3B   .absSeg45
+.abs_section_40                    1   N/I       0x40       0x40   .absSeg46
+.abs_section_45                    1   N/I       0x45       0x45   .absSeg47
+.abs_section_48                    1   N/I       0x48       0x48   .absSeg48
+.abs_section_50                    1   N/I       0x50       0x50   .absSeg49
+.abs_section_55                    1   N/I       0x55       0x55   .absSeg50
+.abs_section_58                    1   N/I       0x58       0x58   .absSeg51
+.abs_section_880                   1   N/I      0x880      0x880   .absSeg52
+.abs_section_881                   1   N/I      0x881      0x881   .absSeg53
+.abs_section_882                   1   N/I      0x882      0x882   .absSeg54
+.abs_section_883                   1   N/I      0x883      0x883   .absSeg55
+.abs_section_888                   1   N/I      0x888      0x888   .absSeg56
+.abs_section_889                   1   N/I      0x889      0x889   .absSeg57
+.abs_section_88a                   1   N/I      0x88A      0x88A   .absSeg58
+.abs_section_88b                   1   N/I      0x88B      0x88B   .absSeg59
+.abs_section_890                   1   N/I      0x890      0x890   .absSeg60
+.abs_section_891                   1   N/I      0x891      0x891   .absSeg61
+.abs_section_892                   1   N/I      0x892      0x892   .absSeg62
+.abs_section_893                   1   N/I      0x893      0x893   .absSeg63
+.abs_section_894                   1   N/I      0x894      0x894   .absSeg64
+.abs_section_895                   1   N/I      0x895      0x895   .absSeg65
+.abs_section_896                   1   N/I      0x896      0x896   .absSeg66
+.abs_section_897                   1   N/I      0x897      0x897   .absSeg67
+.abs_section_898                   1   N/I      0x898      0x898   .absSeg68
+.abs_section_899                   1   N/I      0x899      0x899   .absSeg69
+.abs_section_89a                   1   N/I      0x89A      0x89A   .absSeg70
+.abs_section_89b                   1   N/I      0x89B      0x89B   .absSeg71
+.abs_section_89c                   1   N/I      0x89C      0x89C   .absSeg72
+.abs_section_89d                   1   N/I      0x89D      0x89D   .absSeg73
+.abs_section_89e                   1   N/I      0x89E      0x89E   .absSeg74
+.abs_section_89f                   1   N/I      0x89F      0x89F   .absSeg75
+.abs_section_8a0                   1   N/I      0x8A0      0x8A0   .absSeg76
+.abs_section_8a1                   1   N/I      0x8A1      0x8A1   .absSeg77
+.abs_section_8a2                   1   N/I      0x8A2      0x8A2   .absSeg78
+.abs_section_8a3                   1   N/I      0x8A3      0x8A3   .absSeg79
+.abs_section_8a4                   1   N/I      0x8A4      0x8A4   .absSeg80
+.abs_section_8a5                   1   N/I      0x8A5      0x8A5   .absSeg81
+.abs_section_8a6                   1   N/I      0x8A6      0x8A6   .absSeg82
+.abs_section_8a7                   1   N/I      0x8A7      0x8A7   .absSeg83
+.abs_section_8a8                   1   N/I      0x8A8      0x8A8   .absSeg84
+.abs_section_8a9                   1   N/I      0x8A9      0x8A9   .absSeg85
+.abs_section_8aa                   1   N/I      0x8AA      0x8AA   .absSeg86
+.abs_section_8ab                   1   N/I      0x8AB      0x8AB   .absSeg87
+.abs_section_8ac                   1   N/I      0x8AC      0x8AC   .absSeg88
+.abs_section_8ad                   1   N/I      0x8AD      0x8AD   .absSeg89
+.abs_section_8ae                   1   N/I      0x8AE      0x8AE   .absSeg90
+.abs_section_8af                   1   N/I      0x8AF      0x8AF   .absSeg91
+.abs_section_1800                  1   N/I     0x1800     0x1800   .absSeg92
+.abs_section_1801                  1   N/I     0x1801     0x1801   .absSeg93
+.abs_section_1802                  1   N/I     0x1802     0x1802   .absSeg94
+.abs_section_1803                  1   N/I     0x1803     0x1803   .absSeg95
+.abs_section_1808                  1   N/I     0x1808     0x1808   .absSeg96
+.abs_section_1809                  1   N/I     0x1809     0x1809   .absSeg97
+.abs_section_180b                  1   N/I     0x180B     0x180B   .absSeg98
+.abs_section_180e                  1   N/I     0x180E     0x180E   .absSeg99
+.abs_section_180f                  1   N/I     0x180F     0x180F   .absSeg100
+.abs_section_1818                  1   N/I     0x1818     0x1818   .absSeg101
+.abs_section_1819                  1   N/I     0x1819     0x1819   .absSeg102
+.abs_section_181a                  1   N/I     0x181A     0x181A   .absSeg103
+.abs_section_181c                  1   N/I     0x181C     0x181C   .absSeg104
+.abs_section_181d                  1   N/I     0x181D     0x181D   .absSeg105
+.abs_section_181e                  1   N/I     0x181E     0x181E   .absSeg106
+.abs_section_181f                  1   N/I     0x181F     0x181F   .absSeg107
+.abs_section_1820                  1   N/I     0x1820     0x1820   .absSeg108
+.abs_section_1821                  1   N/I     0x1821     0x1821   .absSeg109
+.abs_section_1823                  1   N/I     0x1823     0x1823   .absSeg110
+.abs_section_1824                  1   N/I     0x1824     0x1824   .absSeg111
+.abs_section_1825                  1   N/I     0x1825     0x1825   .absSeg112
+.abs_section_1826                  1   N/I     0x1826     0x1826   .absSeg113
+.abs_section_1830                  1   N/I     0x1830     0x1830   .absSeg114
+.abs_section_1831                  1   N/I     0x1831     0x1831   .absSeg115
+.abs_section_1832                  1   N/I     0x1832     0x1832   .absSeg116
+.abs_section_1833                  1   N/I     0x1833     0x1833   .absSeg117
+.abs_section_1840                  1   N/I     0x1840     0x1840   .absSeg118
+.abs_section_1841                  1   N/I     0x1841     0x1841   .absSeg119
+.abs_section_1842                  1   N/I     0x1842     0x1842   .absSeg120
+.abs_section_1844                  1   N/I     0x1844     0x1844   .absSeg121
+.abs_section_1845                  1   N/I     0x1845     0x1845   .absSeg122
+.abs_section_1846                  1   N/I     0x1846     0x1846   .absSeg123
+.abs_section_1848                  1   N/I     0x1848     0x1848   .absSeg124
+.abs_section_1849                  1   N/I     0x1849     0x1849   .absSeg125
+.abs_section_184a                  1   N/I     0x184A     0x184A   .absSeg126
+.abs_section_184c                  1   N/I     0x184C     0x184C   .absSeg127
+.abs_section_184d                  1   N/I     0x184D     0x184D   .absSeg128
+.abs_section_184e                  1   N/I     0x184E     0x184E   .absSeg129
+.abs_section_1850                  1   N/I     0x1850     0x1850   .absSeg130
+.abs_section_1851                  1   N/I     0x1851     0x1851   .absSeg131
+.abs_section_1852                  1   N/I     0x1852     0x1852   .absSeg132
+.abs_section_12                    2   N/I       0x12       0x13   .absSeg133
+.abs_section_14                    2   N/I       0x14       0x15   .absSeg134
+.abs_section_20                    2   N/I       0x20       0x21   .absSeg135
+.abs_section_41                    2   N/I       0x41       0x42   .absSeg136
+.abs_section_43                    2   N/I       0x43       0x44   .absSeg137
+.abs_section_46                    2   N/I       0x46       0x47   .absSeg138
+.abs_section_49                    2   N/I       0x49       0x4A   .absSeg139
+.abs_section_51                    2   N/I       0x51       0x52   .absSeg140
+.abs_section_53                    2   N/I       0x53       0x54   .absSeg141
+.abs_section_56                    2   N/I       0x56       0x57   .absSeg142
+.abs_section_59                    2   N/I       0x59       0x5A   .absSeg143
+.abs_section_1806                  2   N/I     0x1806     0x1807   .absSeg144
+.abs_section_1810                  2   N/I     0x1810     0x1811   .absSeg145
+.abs_section_1812                  2   N/I     0x1812     0x1813   .absSeg146
+.abs_section_1814                  2   N/I     0x1814     0x1815   .absSeg147
+.abs_section_1816                  2   N/I     0x1816     0x1817   .absSeg148
+
+Summary of section sizes per section type:
+NO_INIT (N/I):          A5 (dec:      165)
+
+*********************************************************************************************
+VECTOR-ALLOCATION SECTION
+    Address     InitValue   InitFunction
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+OBJECT-ALLOCATION SECTION
+     Name               Module                 Addr   hSize   dSize     Ref    Section   RLIB
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+MODULE STATISTIC
+  Name                                      Data   Code  Const
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+SECTION USE IN OBJECT-ALLOCATION SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+OBJECT LIST SORTED BY ADDRESS
+     Name                                      Addr   hSize   dSize     Ref    Section   RLIB
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+UNUSED-OBJECTS SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+COPYDOWN SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+OBJECT-DEPENDENCIES SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+STATISTIC SECTION
+---------------------------------------------------------------------------------------------
+
+ExeFile:
+--------
+Number of blocks to be downloaded: 0
+Total size of all blocks to be downloaded: 0
+

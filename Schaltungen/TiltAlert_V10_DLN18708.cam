@@ -1,0 +1,278 @@
+{
+    "author": {
+        "email": "support.eagle@autodesk.com",
+        "name": "Autodesk EAGLE"
+    },
+    "description": {
+        "EN": "CAM job description goes here."
+    },
+    "output_type": "directory",
+    "outputs": [
+        {
+            "filename_prefix": "CAMOutputs/GerberFiles",
+            "format_specifier": {
+                "decimal": 4,
+                "integer": 3
+            },
+            "generate_job_file": true,
+            "output_type": "gerber",
+            "outputs": [
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Silkscreen Top",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N.GTO",
+                    "layers": [
+                        21,
+                        27,
+                        46,
+                        25
+                    ],
+                    "milling": false,
+                    "name": "Silkscreen Top",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "SMD-Paste Unterseite",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N.GBP",
+                    "layers": [
+                        32,
+                        46
+                    ],
+                    "milling": false,
+                    "name": "SMD-Paste Unterseite",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Ausfräsungen",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N.GML",
+                    "layers": [
+                        20,
+                        46
+                    ],
+                    "milling": false,
+                    "name": "Ausfräsungen",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "SMD-Paste Oberseite",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N.GTP",
+                    "layers": [
+                        31,
+                        46
+                    ],
+                    "milling": false,
+                    "name": "SMD-Paste Oberseite",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Solderstop Bottom",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N.GBS",
+                    "layers": [
+                        30,
+                        46
+                    ],
+                    "milling": false,
+                    "name": "Solderstop Bottom",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Solderstop Top",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N.GTS",
+                    "layers": [
+                        29,
+                        46
+                    ],
+                    "milling": false,
+                    "name": "Solderstop Top",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Silkscreen Bottom",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N.GBO",
+                    "layers": [
+                        22,
+                        26,
+                        46
+                    ],
+                    "milling": false,
+                    "name": "Silkscreen Bottom",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Bottom Layer",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N.GBL",
+                    "layers": [
+                        16,
+                        17,
+                        18,
+                        46
+                    ],
+                    "milling": false,
+                    "name": "Bottom Layer",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Top Layer",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%N.GTL",
+                    "layers": [
+                        1,
+                        17,
+                        18,
+                        46
+                    ],
+                    "milling": false,
+                    "name": "Top Layer",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                }
+            ],
+            "version": "RS274X"
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrillFiles",
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+                {
+                    "drills": {
+                        "NPTH": true,
+                        "PTH": true,
+                        "VIA": true
+                    },
+                    "filename_format": "%N.TXT",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "Holes und Drills",
+                    "type": "excellon"
+                }
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/Assembly",
+            "output_type": "assembly",
+            "outputs": [
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrawingFiles",
+            "output_type": "drawing",
+            "outputs": [
+            ]
+        }
+    ],
+    "timestamp": "2018-09-15T00:00:00",
+    "type": "EAGLE CAM job",
+    "units": "metric",
+    "version": "9.2.0"
+}
