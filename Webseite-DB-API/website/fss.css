@@ -1,0 +1,41 @@
+/* img {
+    background-color: lightgreen;
+} */
+
+.menuleiste {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .menuleiste ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menuleiste li {
+    display: inline;
+  }
+  
+  .menuleiste li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+  }
+  
+  .menuleiste li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .testInfoButton {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+  
