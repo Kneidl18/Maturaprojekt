@@ -44,8 +44,8 @@ class Programm(Frame):
         print()
         self.my_canvas.pack(pady=45, side=RIGHT)
         self.create_environment()
-        self.create_information()
-        self.update_information()
+        # self.create_information()
+        # self.update_information()
 
     def create_environment(self):
         # feldwege
@@ -86,6 +86,9 @@ class Programm(Frame):
         # wassertrophen
          #img = ImageTk.PhotoImage(Image.open("water_drop.jpg"))
          #self.my_canvas.create_image(790, 680, anchor=NW, image=img)
+
+        self.my_canvas.update()
+        self.my_canvas.postscript(file="gui.png", colormode='color')
 
     def place_door(self, door_number, door_status):
         temp = object()
