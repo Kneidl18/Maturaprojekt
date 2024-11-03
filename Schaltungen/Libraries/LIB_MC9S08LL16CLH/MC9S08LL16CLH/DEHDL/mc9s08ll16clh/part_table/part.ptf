@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MC9S08LL16CLH'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NXP", "MC9S08LL16CLH" (!) = "", "QFP50P1200X1200X160-64N", "Quad Flat Packages", "841-MC9S08LL16CLH", "https://www.mouser.com/Search/Refine.aspx?Keyword=841-MC9S08LL16CLH", "MC9S08LL16CLH", "https://www.arrow.com/en/products/mc9s08ll16clh/nxp-semiconductors", "MCU 8-bit S08 CISC 16KB Flash 2.5V/3.3V 64-Pin LQFP Tray", "http://www.nxp.com/docs/en/data-sheet/MC9S08LL16.pdf", "1.6 mm"
+END_PART
+
+END.

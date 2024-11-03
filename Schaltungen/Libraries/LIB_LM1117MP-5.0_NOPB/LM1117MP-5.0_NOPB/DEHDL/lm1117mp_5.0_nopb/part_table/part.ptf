@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM1117MP_5.0_NOPB'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LM1117MP-5.0/NOPB" (!) = "", "SOT230P700X180-4N", "SOT223 (3-Pin)", "926-LM1117MP-5.0NOPB", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1117MP-50-NOPB?qs=X1J7HmVL2ZFGlzwnAaPsKg%3D%3D", "LM1117MP-5.0/NOPB", "https://www.arrow.com/en/products/lm1117mp-5.0nopb/texas-instruments?region=nac", "LM1117MP-5.0/NOPB, Low Dropout Voltage Regulator, 1.5A, 5 V +/-1%, 4-Pin SOT-223", "http://docs-emea.rs-online.com/webdocs/0780/0900766b807800ce.pdf", "1.8 mm"
+END_PART
+
+END.

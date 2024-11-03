@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=MC9S08LL16CLH
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=64
+Version=1.1
+Released=2021-10-05 05:27:31
+Downloaded=2021-10-05 15:44:27
+3D=Y

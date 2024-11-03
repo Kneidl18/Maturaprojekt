@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM1117DT_3.3_NOPB'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LM1117DT-3.3/NOPB" (!) = "", "TO228P991X238-3N", "TO-XXX (Inc. DPAK)", "926-LM1117DT-3.3NOPB", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1117DT-33-NOPB?qs=X1J7HmVL2ZHOT670myqy2w%3D%3D", "LM1117DT-3.3/NOPB", "https://www.arrow.com/en/products/lm1117dt-3.3nopb/texas-instruments", "Space saving 800-mA low-dropout linear regulator with internal current limit", "http://docs-emea.rs-online.com/webdocs/0780/0900766b807800cc.pdf", "2.38 mm"
+END_PART
+
+END.

@@ -1,0 +1,3 @@
+Data:1 < ADDXPR ONLY_ADD_IF_NEW "AirTemp"
+Data:1 < ADDXPR ONLY_ADD_IF_NEW "AirTempCelsius"
+Data:1 < ADDXPR ONLY_ADD_IF_NEW "AirTempViertelGrad"

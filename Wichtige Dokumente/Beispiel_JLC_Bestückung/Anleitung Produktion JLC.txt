@@ -1,0 +1,78 @@
+- Platine Zeichnen
+- "NAMES" richtig setzen!
+
+
+- Gerberfiles des PCB erstellen:
+
+  Im Board-Modus von EAGLE:
+  - CAM-Prozessor starten (DATEI-->CAM-Processor...")
+  - CAM-File laden (z.B. den von Ropat DirectDrive, Ropat Netzgerät etc)
+  - Generiert einen Haufen verschiedener (Gerber-)Dateien (Top-Seite, Bottom, Drill etc.)
+  - Diese Files zu einem Zip zusammenfassen, ist das PCB. Zip-Namen SINNVOLL wählen!
+
+
+-Placement-Datei erstellen:
+
+  Im im Board-Modus von EAGLE:
+  - DATEI --> "Exportieren" --> "Mount SMD" ausführen
+  - Es wird ein ".mnt" und ".mnb" generiert: Top-Bestückung und Bottom-Bestückung.
+    Der ".mnb"-File kann gelöscht werden.
+  - Aus dieser Datei eine Excel-Datei wie nach Vorlage machen (also aus der
+    Text-Datei die X/Y-Positionen bzw. Rotationen rauskopieren!)
+  - Abspeichern unter "CPL_NamePlatine_Vxx_DLN_18xxx.XSLX" (Component Placement)
+  
+  Jedes einzelne Bauteil (R1, R2, R3, C5, IC2,....) hat eine einzelne Zeile mit folgenden
+  Einträgen:
+
+  Designator  MidX     MidY     Layer    Rotation
+      C1      1.91     15.56    TOP      180
+      C2     11.11     -5.06    TOP      0
+     ...
+     ...
+
+  Designator ist der Bauteilname, MidX bzw. MidY sind die Mittelpunkte der Bauteile, die
+  plaziert werden, Layer ist in der Regel "TOP" und die Rotation wird in Grad angegeben.
+
+
+-Die BOM erstelen (Bill of Material):
+
+  -Excel-Datei "BOM_NamePlatine_Vxx_DLN_18xxx.xslx" erstellen (aus Template kopieren)
+  -In JLC-Library die "Cxxxx"-Part Numbers ermitteln und eingeben
+
+  Jedes Bauteil desselben Typs (100nF, 10k usw.) hat eine einzelne Zeile mit folgenden
+  Einträgen:
+
+  Comment     Designator    Footprint   LCSC Part# (Optional)
+   100nF      C1, C4,C7      0805       C49678
+   100pF      C5             0805       C1790
+   ...
+   ...
+
+   Sofern eine LCSC Nummer angegeben wird ist alles sehr easy, da JLC ja das Bauteil
+   eindeutig identifizieren kann!
+
+
+Platine bei JLC herstellen und bestücken lassen:
+
+- Zuerst PCB hochladen, anzeigen lassen, kontrollieren!
+- Quantity und ggf. Optionals angeben (Farbe etc.), BLEIFREI!!
+- Danach "SMT-Assembly" aktivieren
+- "Assembly TOP Site" aktivieren
+- Quantity ist die selbe wie oben...
+- "Tooling Holes" "Add by JLC" anklicken
+
+- Eine Seite weiterklicken
+- "BOM_xxxxx.XSLX"-Datei (Bill of Material) und 
+- "PNP_xxxx.XSLX"-Datei (Pick and Place) hochladen
+
+Weiter mit "NEXT", schauen, ob alles "confirmed" ist.
+
+Nochmal mit "NEXT" weitergehen, Grafik GUT kontrollieren
+
+Bauteile, die falsch rum liegen (Position oder Rotation) HÄNDISCH in der
+CPL-Excel-Tabelle korrigieren, den ganzen Vorgang nochmal machen (raufladen des 
+PCB, Quantity usw...)!
+
+
+
+

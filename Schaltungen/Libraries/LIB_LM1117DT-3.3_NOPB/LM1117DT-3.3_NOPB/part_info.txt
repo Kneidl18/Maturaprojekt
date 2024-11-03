@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM1117DT-3.3/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=TO-XXX (Inc. DPAK)
+PinCount=3
+Version=1.1
+Released=2016-03-18 16:41:14
+Downloaded=2021-10-06 19:21:29
+3D=Y
