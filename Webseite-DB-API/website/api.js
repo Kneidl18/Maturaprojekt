@@ -1,8 +1,8 @@
 let host = "http://localhost"
 let port = ":8000"
 
-document.getElementById('testInfoButtonPost').addEventListener('click', postData);
-document.getElementById('testInfoButtonPut').addEventListener('click', putData)
+// document.getElementById('testInfoButtonPost').addEventListener('click', postData);
+// document.getElementById('testInfoButtonPut').addEventListener('click', putData)
 
 
 async function postData(event)
